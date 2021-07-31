@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">           <!-- encodage , autre mieu "x-iso-8859-11"-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- compatible avec les navigateur internet explorer-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- navigateur s'adapte avec different 
+        ecrant , tablette, ipad= responsive, veut dir s'addapte avec taille d'ecran-->
+    <title>HTML</title> <!-- titre -->
+    <link rel="icon" href="icon.png" /> <!-- mettre icon devant le titre dans l'onglet-->
+    <meta name="description" content="The first cours --> HTML "> <!-- pour afficher discription pour
+         recherce google-->
+    <meta name="author" content="Walid Boubechtoula"> <!-- ateur de site -->
+    <meta name="keywords" content="HTML, CSS, JS"> <!-- l application valable a -->
+
+</head>
+<body>
+
+<nav> <!-- barre d outil en haut-->
+    <a href="#titres"> heading tag </a> <!-- # pour dissactivé href, on utilise section pour
+         naviguer entre différent liens de votre page de nave-->
+    <a href="#textes"> texting tag </a>
+    <a href="#images"> image tag </a>
+    <a href="#videos"> vedio tag </a>
+    <a href="#tables"> table tag </a>
+    <a href="#listes"> liste tag </a>
+    <a href="contacte.html" target="_blank"> contactez-nous </a>
+
+
+</nav>
+<section id="titres">  
+
+
+    <h1> titel tags </h1>
+    <h2> our first HTML PAGE 2</h2>
+    <h3> our first HTML PAGE 3</h3>
+    <h4> our first HTML PAGE 4</h4>
+    <h5> our first HTML PAGE 5</h5>
+    <h6> our first HTML PAGE 6</h6>  <!--titres-->
+
+</section> <br><br>
+<section id="textes">
+    <h1>texting tags</h1>
+    <p> c'est un paragraphe <br>   cvfdgfdfdgdg </p>  <!-- paragraphe et br pour retour a la ligne-->
+
+    <span> c'est pour afficher du texte <br> ffffffffffffffffffffffffffff</span> <br><!-- pour afficher texte,
+         paragraphe
+        , qualité de texte, tres utilisé par les developpeurs-->
+        <em> our first HTML PAGE 6</em> <br> <!--pour changer police standard-->
+
+        <em>first</em><em>second</em> <br> <em>third</em> <!-- sans retour a la ligne , il faut mettre <em></em>-->
+
+        <p>fourth</p><p>fifth</p><p>sixth</p> <!-- chaque paragraphe sera dans une ligne
+             indépendant de l'autre paragraphe-->
+
+<b> The HyperText Markup Language </b> abrigé  <strong> (HTML) </strong> is a simple data <em>format </em>
+ used to create hypertext documents that <i>  portable from </i> one platform to <del>another </del>   </p>    <!-- pour 
+     mettre en gras  en utilise b ou strong 
+                et pour l'italique on utilise em ou i et pour barré on utilise del-->
+
+<span>A wiki is essentially a <b><small>for creating, browsing</small></b> , and searching through information. 
+    A wiki allows non-linear,  evolving, complex, and networked text,</span> <br> <br><!-- small réduire taille text-->
+
+</section> <br><br>
+<section id="images">
+    <h1>images tag</h1>
+<img width="200" height="200" src = "https://www.aquaportail.com/pictures1205/carduelis-tristis.jpg"> <!-- afficher image 
+    a partir d'un lien, modifier la taille d'image on utilise widht et height-->
+<img width="200" height="200" src="images/img1.jpg"> <br> <!-- pour aficher image a partir d'dossier dans ton projet --> <br>
+<img width="200" height="200"  alt="un oiseau" src="images/img2_2.jpg"> <br> <br>  <!-- pour defaut d'affichage image a partir
+     d'dossier dans ton projet ou bien lenteur de connexion-->
+    </section>
+    <br><br>
+    <section id="videos">
+        <h1>video tags</h1>
+<video width="400"  controls> <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"></video>
+<!-- pour afficher vedio, ajouter controls pour gerer la video, telecharger, arrete redemarer, 
+    meme chose pour vedio sur ton pc--> <br><br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xbYf4BGr3Bc" title="YouTube video player" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen></iframe> <br><br> <!--copier directement de youputuben , 
+        partager puis integrer, copier lien directe et coller scripte ici-->
+
+              <!--autre exemple iframe, pas seulement pour video youtube, rammener une page vers une autre page, 
+                image d'une page vers page -->
+
+                <!-- pour audio la meme chose comme video-->
+                <audio controls="" autoplay="" muted>
+                    <source src="https://audio.bfmtv.com/bfmbusiness_128.mp3?aw_0_1st.playerId=AudioPlayer_Web_Next" type="audio/mpeg">
+                </audio> <br><br>
+
+
+                <audio controls="" autoplay="" muted> <!-- false pour annulé l atoplay-->
+                    <source src="audio/audi1.mp3">
+                </audio> <br><br>   <!-- audio apartir de mon pc -->
+            </section>
+                <!-- maintenant les liens-->
+ 
+              <!-- on utilise les liens via <a>-->
+
+                <a href="https://esi.dz" target="_blank"> ESI.DZ </a> <br> <br><!-- direcetion vers mon site esi.dz sur le
+                     meme onglet, pour dans une autre fentre on utilise _blank  -->
+
+                     <a href="contacte.html" target="_blank"> contactez-nous </a> <br><br><!-- direcetion vers ma page
+                         contacte situé sur mon pc            meme onglet, pour dans une autre fentre on utilise _blank  -->
+                         <!-- consulter page contacte-nous-->
+
+<section id="tables">
+<!--les tableaux-->
+
+
+<h1> HTML TABLES</h1>
+
+<table border="1">
+    <tr>
+      <th>Month</th> <!-- th pour entete tabl-->
+      <th>Savings</th>
+      <th>date</th>
+      <th>date naissance</th>
+    </tr>
+    <tr>
+      <td>January</td><!-- td pour ligne-->
+      <td>$100</td>
+      <td>27/07/2021</td>
+      <td>27/07/2000</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+      <td>25/07/2021</td>
+      <td>27/07/1987</td>
+      <!-- pour verifier, nbre th dans tr est egal au nombre td dans tr-->
+    </tr>
+  </table> <br><br>
+</section> <br><br>
+<section id="listes">
+    <h1> liste tags</h1>
+<!-- order ol il / liste -->
+<h2>an unorder</h2>
+<ul> <!-- sans ordre-->
+    <li> tml1</li>
+    <li> tml21</li>
+    <li> tryry
+        <ul> <!--imbriquer d autre points-->
+
+          <li>  tml1333333</li>
+          <li>  tml133333fffffffffff3</li>   
+          <li>  tml13333gggggggggg33</li>
+        </ul> </li>
+
+</ul>
+<h2>order</h2>
+<ol> <!-- avec ordre logique-->
+    <li> tml2</li>
+    <li> tml231</li>
+    <li> tml313</li>
+
+</ol>
+<br><br>
+</section>
+
+<footer><!--pied de page-->
+    Copyright 1999-2021 by Refsnes Data. All Rights Reserved.
+    W3Schools is Powered by W3.CSS. gomycod juillet 2021
+</footer>
+
+</body>
+</html>
